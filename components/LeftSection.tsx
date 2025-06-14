@@ -15,7 +15,13 @@ export default function LeftSection() {
         <IconsLinkSection />
 
         <Button variant={"default"} asChild className="mt-4">
-          <Link href={"/cv/cv-sd.pdf"}>View Full CV</Link>
+          <Link
+            href={"/cv/cv-sd.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Full CV
+          </Link>
         </Button>
       </div>
 
