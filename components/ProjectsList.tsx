@@ -1,4 +1,4 @@
-import { experiences } from "@/lib/data/experiences";
+import { experiences } from "@/lib/data/experiences-type";
 import ExperienceCard from "./ExperienceCard";
 
 export default function ProjectsList() {

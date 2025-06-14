@@ -1,4 +1,5 @@
 import { Experience } from "@/lib/types/experience";
+import Link from "next/link";
 
 export default function ExperienceCard({
   experience,
@@ -14,11 +15,25 @@ export default function ExperienceCard({
       </h4>
 
       <div className="w-full flex-col justify-between items-start gap-2">
-        <h3 className="text-base font-bold">
-          {experience.company}
-          {" - "}
-          {experience.position}
-        </h3>
+        {experience.websiteUrl ? (
+          <Link
+            href={experience.websiteUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3 className="text-base hover:text-description font-bold">
+              {experience.company}
+              {" - "}
+              {experience.position}
+            </h3>
+          </Link>
+        ) : (
+          <h3 className="text-base font-bold">
+            {experience.company}
+            {" - "}
+            {experience.position}
+          </h3>
+        )}
         <p className="text-description text-sm">{experience.description}</p>
       </div>
     </div>

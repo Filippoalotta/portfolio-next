@@ -1,5 +1,7 @@
+import Link from "next/link";
 import IconsLinkSection from "./IconsLinkSection";
 import TechStack from "./TechStack";
+import { Button } from "./ui/button";
 
 export default function LeftSection() {
   return (
@@ -8,9 +10,13 @@ export default function LeftSection() {
         <h1 className="text-4xl text-bold">Filippo Alotta</h1>
         <h2 className="text-lg text-bold">FrontEnd Developer</h2>
         <p className="text-description mt-1  text-base max-w-80">
-          I build accessible, pixel-perfect digital experiences for the web.
+          I develop clean, accessible UI experiences for the modern web.
         </p>
         <IconsLinkSection />
+
+        <Button variant={"default"} asChild className="mt-4">
+          <Link href={"/cv/cv-sd.pdf"}>View Full CV</Link>
+        </Button>
       </div>
 
       <TechStack />
