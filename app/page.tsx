@@ -3,7 +3,7 @@ import RightSection from "@/components/RightSection";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col lg:flex-row lg:h-screen">
+    <div className="flex flex-col justify-center items-center lg:flex-row lg:h-screen">
       <div className="w-full overflow-y-hidden lg:w-1/2">
         <LeftSection />
       </div>

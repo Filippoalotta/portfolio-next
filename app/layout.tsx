@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${rubik.variable} antialiased`}>
-        <main className="w-full px-6 py-12 ">{children}</main>
+        <main className="w-full mx-auto max-w-[1600px] px-10">{children}</main>
       </body>
     </html>
   );
