@@ -16,7 +16,7 @@ export const experiences: Experience[] = [
     position: "FrontEnd Developer",
     startDate: "2024",
     description:
-      "Developed and styled responsive, user-friendly web applications for SwipeApp Studio, focusing on building scalable, accessible UI components. Collaborated closely with designers and backend developers to translate wireframes into interactive interfaces, ensuring seamless performance and cross-device compatibility across mobile and web platforms.",
+      "Developed and styled responsive, user-friendly web applications for SwipeApp Studio, focusing on building scalable, accessible UI components. Collaborated closely with designers and backend developers to translate wireframes into interactive interfaces.",
     websiteUrl: "https://www.swipeapp.studio",
   },
   {
