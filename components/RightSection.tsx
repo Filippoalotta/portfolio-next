@@ -1,21 +1,22 @@
-import ExperiencesList from "./ExperiencesList";
-import Footer from "./Footer";
-import ProjectsList from "./ProjectsList";
+import EducationsList from './EducationsList';
+import ExperiencesList from './ExperiencesList';
+import Footer from './Footer';
+import ProjectsList from './ProjectsList';
 
 export default function RightSection() {
   return (
-    <div className="lg:h-full flex-col py-6 lg:overflow-y-auto lg:pt-24 flex gap-10">
-      <p className="text-description text-base">
-        I’m a FrontEnd Developer dedicated to building inclusive, flawless UI
-        designs that combine creative vision with solid technical skills. I
-        excel where design meets development, crafting experiences that are
-        visually appealing and carefully optimized for speed and ease of use.
-        Currently, I’m a FrontEnd Developer at SwipeApp Studio, focusing on
-        accessibility and helping create scalable UI components for both mobile
-        and web platforms.
+    <div className="flex flex-col gap-10 py-6 lg:h-full lg:overflow-y-auto lg:pt-24">
+      <p className="text-base text-description">
+        As a Software Engineer, I am committed to building robust systems,
+        encompassing both the user experience and the system architecture. My
+        practical field experience, combined with my academic background in
+        Electronic Engineering, allows me to approach technical problems with a
+        broader, principle-based perspective.
       </p>
 
       <ExperiencesList />
+
+      <EducationsList />
 
       <ProjectsList />
 

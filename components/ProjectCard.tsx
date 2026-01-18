@@ -1,6 +1,6 @@
-import { Project } from "@/lib/types/project-type";
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
+import type { Project } from '@/lib/types/project-type';
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
@@ -10,19 +10,19 @@ export default function ProjectCard({ project }: { project: Project }) {
           href={project.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full flex flex-col group hover:cursor-pointer lg:flex-row justify-between items-start gap-1 lg:gap-3"
+          className="group flex w-full flex-col items-start justify-between gap-1 hover:cursor-pointer lg:flex-row lg:gap-3"
         >
           <Image
             src={project.image}
             alt={`${project.title} image`}
-            className="w-28 border border-description transition-all h-20 object-cover rounded-lg mb-2 lg:mb-0"
+            className="mb-2 h-20 w-28 rounded-lg border border-description object-cover transition-all lg:mb-0"
             unoptimized
             width={120}
             height={80}
           />
 
-          <div className="w-full flex-col justify-between items-start gap-2">
-            <h3 className="text-base group-hover:text-description font-bold">
+          <div className="w-full flex-col items-start justify-between gap-2">
+            <h3 className="font-bold text-base group-hover:text-description">
               {project.title}
             </h3>
 
@@ -30,18 +30,18 @@ export default function ProjectCard({ project }: { project: Project }) {
           </div>
         </Link>
       ) : (
-        <div className="w-full flex flex-col group hover:cursor-pointer lg:flex-row justify-between items-start gap-1 lg:gap-3">
+        <div className="group flex w-full flex-col items-start justify-between gap-1 hover:cursor-pointer lg:flex-row lg:gap-3">
           <Image
             src={project.image}
             alt={`${project.title} image`}
-            className="w-28 border border-description transition-all h-20 object-cover rounded-lg mb-2 lg:mb-0"
+            className="mb-2 h-20 w-28 rounded-lg border border-description object-cover transition-all lg:mb-0"
             unoptimized
             width={120}
             height={80}
           />
 
-          <div className="w-full flex-col justify-between items-start gap-2">
-            <h3 className="text-base  font-bold">{project.title}</h3>
+          <div className="w-full flex-col items-start justify-between gap-2">
+            <h3 className="font-bold text-base">{project.title}</h3>
 
             <p className="text-description text-sm">{project.description}</p>
           </div>

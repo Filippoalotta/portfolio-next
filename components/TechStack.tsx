@@ -1,8 +1,9 @@
+import AstroFigma from "@/public/icons/astro-figma.svg";
 import HtmlCss from "@/public/icons/html-css.svg";
 import JsTs from "@/public/icons/js-ts.svg";
 import ReactNext from "@/public/icons/react-next.svg";
 import TwScss from "@/public/icons/tw-scss.svg";
-import AstroFigma from "@/public/icons/astro-figma.svg";
+import CGit from "@/public/icons/c-git.svg";
 
 import Image from "next/image";
 
@@ -60,6 +61,17 @@ export default function TechStack() {
           <Image
             src={AstroFigma}
             alt="astro figma icon"
+            className="group-hover:-translate-y-3 transition-transform duration-300"
+            unoptimized
+            width={84}
+            height={84}
+          />
+        </div>
+
+        <div className="group">
+          <Image
+            src={CGit}
+            alt="c icon"
             className="group-hover:-translate-y-3 transition-transform duration-300"
             unoptimized
             width={84}

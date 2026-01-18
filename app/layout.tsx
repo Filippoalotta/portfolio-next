@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { Rubik } from "next/font/google";
+import type { Metadata } from 'next';
+import './globals.css';
+import { Rubik } from 'next/font/google';
 
 const rubik = Rubik({
-  variable: "--font-rubik",
-  subsets: ["latin"],
-  weight: ["400", "700"],
+  variable: '--font-rubik',
+  subsets: ['latin'],
+  weight: ['400', '700'],
 });
 
 export const metadata: Metadata = {
-  title: "Filippo Alotta - FrontEnd Developer",
-  description: "Portfolio of Filippo Alotta, FrontEnd Developer",
+  title: 'Filippo Alotta - Software Engineer',
+  description: 'Portfolio of Filippo Alotta, Software Engineer',
 };
 
 export default function RootLayout({
@@ -23,15 +23,15 @@ export default function RootLayout({
       <head>
         <meta
           property="og:title"
-          content="Filippo Alotta - FrontEnd Developer"
+          content="Filippo Alotta - Software Engineer"
         />
         <meta
           property="og:description"
-          content="Portfolio of Filippo Alotta, FrontEnd Developer"
+          content="Portfolio of Filippo Alotta, Software Engineer"
         />
       </head>
       <body className={`${rubik.variable} antialiased`}>
-        <main className="w-full mx-auto max-w-[1600px] px-10">{children}</main>
+        <main className="mx-auto w-full max-w-[1600px] px-10">{children}</main>
       </body>
     </html>
   );

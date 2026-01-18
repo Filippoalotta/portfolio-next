@@ -1,13 +1,13 @@
-import LeftSection from "@/components/LeftSection";
-import RightSection from "@/components/RightSection";
+import LeftSection from '@/components/LeftSection';
+import RightSection from '@/components/RightSection';
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col justify-center items-center lg:flex-row lg:h-screen">
+    <div className="flex flex-col items-center justify-center lg:h-screen lg:flex-row">
       <div className="w-full overflow-y-hidden lg:w-1/2">
         <LeftSection />
       </div>
-      <div className="w-full lg:w-1/2 lg:h-full lg:overflow-y-auto">
+      <div className="w-full lg:h-full lg:w-1/2 lg:overflow-y-auto">
         <RightSection />
       </div>
     </div>
