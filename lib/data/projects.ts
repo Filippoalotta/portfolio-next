@@ -42,6 +42,15 @@ export const projects: Project[] = [
     description:
       'A management platform developed for Fonditalia to handle client requests and streamline administrative processes. The platform provides dedicated areas for customers and admins.',
     image: '/projects/fonditalia_project.svg',
-    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Firebase'],
+  },
+  {
+    id: '6',
+    title: 'SwipeApp Studio',
+    description:
+      'SwipeApp Studio is a software house for venture capital companies, specializing in building custom software solutions for startups.',
+    image: '/projects/swipeapp-thumbnail.png',
+    link: 'https://www.swipeapp.studio',
+    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Firebase'],
   },
 ];

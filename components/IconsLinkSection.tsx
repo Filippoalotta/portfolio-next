@@ -1,3 +1,4 @@
+import { FileUser } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -46,6 +47,18 @@ export default function IconsLinkSection() {
           width={24}
           height={24}
           className="hover:scale-110 transition-transform group-hover:rotate-12 duration-300"
+        />
+      </Link>
+      <Link
+        href={"/cv/cv.pdf"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group"
+      >
+        <FileUser
+          className="hover:scale-110 transition-transform group-hover:rotate-12 duration-300"
+          width={24}
+          height={24}
         />
       </Link>
     </div>

@@ -14,7 +14,7 @@ export default function LeftSection() {
         </p>
         <IconsLinkSection />
 
-        <Button variant={"default"} asChild className="mt-4">
+        {/* <Button variant={"default"} asChild className="mt-4">
           <Link
             href={"/cv/cv.pdf"}
             target="_blank"
@@ -22,7 +22,7 @@ export default function LeftSection() {
           >
             Download CV
           </Link>
-        </Button>
+        </Button> */}
       </div>
 
       <TechStack />

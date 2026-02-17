@@ -1,4 +1,4 @@
-import AstroFigma from "@/public/icons/astro-figma.svg";
+import PostgresSupabase from "@/public/icons/postgres-supabase.svg";
 import HtmlCss from "@/public/icons/html-css.svg";
 import JsTs from "@/public/icons/js-ts.svg";
 import ReactNext from "@/public/icons/react-next.svg";
@@ -59,8 +59,8 @@ export default function TechStack() {
 
         <div className="group">
           <Image
-            src={AstroFigma}
-            alt="astro figma icon"
+            src={PostgresSupabase}
+            alt="postgres supabase icon"
             className="group-hover:-translate-y-3 transition-transform duration-300"
             unoptimized
             width={84}
