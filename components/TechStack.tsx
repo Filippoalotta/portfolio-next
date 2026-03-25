@@ -1,23 +1,22 @@
-import PostgresSupabase from "@/public/icons/postgres-supabase.svg";
-import HtmlCss from "@/public/icons/html-css.svg";
-import JsTs from "@/public/icons/js-ts.svg";
-import ReactNext from "@/public/icons/react-next.svg";
-import TwScss from "@/public/icons/tw-scss.svg";
-import CGit from "@/public/icons/c-git.svg";
-
-import Image from "next/image";
+import Image from 'next/image';
+import CGit from '@/public/icons/c-git.svg';
+import HtmlCss from '@/public/icons/html-css.svg';
+import JsTs from '@/public/icons/js-ts.svg';
+import PostgresSupabase from '@/public/icons/postgres-supabase.svg';
+import ReactNext from '@/public/icons/react-next.svg';
+import TwNode from '@/public/icons/tw-node.svg';
 
 export default function TechStack() {
   return (
-    <div className="flex flex-col justify-center items-start mb-8 gap-5">
-      <h4 className="text-base font-bold uppercase">Tech stack</h4>
+    <div className="mb-8 flex flex-col items-start justify-center gap-5">
+      <h4 className="font-bold text-base uppercase">Tech stack</h4>
 
-      <div className="grid grid-cols-3 justify-between items-center gap-4">
+      <div className="grid grid-cols-3 items-center justify-between gap-4">
         <div className="group">
           <Image
             src={HtmlCss}
             alt="html css icon"
-            className="group-hover:-translate-y-3 transition-transform duration-300"
+            className="transition-transform duration-300 group-hover:-translate-y-3"
             unoptimized
             width={84}
             height={84}
@@ -28,7 +27,7 @@ export default function TechStack() {
           <Image
             src={JsTs}
             alt="js ts icon"
-            className="group-hover:-translate-y-3 transition-transform duration-300"
+            className="transition-transform duration-300 group-hover:-translate-y-3"
             unoptimized
             width={84}
             height={84}
@@ -39,7 +38,7 @@ export default function TechStack() {
           <Image
             src={ReactNext}
             alt="react next icon"
-            className="group-hover:-translate-y-3 transition-transform duration-300"
+            className="transition-transform duration-300 group-hover:-translate-y-3"
             unoptimized
             width={84}
             height={84}
@@ -48,9 +47,9 @@ export default function TechStack() {
 
         <div className="group">
           <Image
-            src={TwScss}
-            alt="tailwind scss icon"
-            className="group-hover:-translate-y-3 transition-transform duration-300"
+            src={TwNode}
+            alt="tailwind nodejs icon"
+            className="transition-transform duration-300 group-hover:-translate-y-3"
             unoptimized
             width={84}
             height={84}
@@ -61,7 +60,7 @@ export default function TechStack() {
           <Image
             src={PostgresSupabase}
             alt="postgres supabase icon"
-            className="group-hover:-translate-y-3 transition-transform duration-300"
+            className="transition-transform duration-300 group-hover:-translate-y-3"
             unoptimized
             width={84}
             height={84}
@@ -72,7 +71,7 @@ export default function TechStack() {
           <Image
             src={CGit}
             alt="c icon"
-            className="group-hover:-translate-y-3 transition-transform duration-300"
+            className="transition-transform duration-300 group-hover:-translate-y-3"
             unoptimized
             width={84}
             height={84}
