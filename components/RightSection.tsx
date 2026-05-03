@@ -7,11 +7,13 @@ export default function RightSection() {
   return (
     <div className="flex flex-col gap-10 py-6 lg:h-full lg:overflow-y-auto lg:pt-24">
       <p className="text-base text-description">
-        As a Software Engineer, I am committed to building robust systems,
-        encompassing both the user experience and the system architecture. My
-        practical field experience, combined with my academic background in
-        Electronic Engineering, allows me to approach technical problems with a
-        broader, principle-based perspective.
+        I am a software engineer specializing in TypeScript and Next.js. I
+        currently work full-time on web projects, managing user interface
+        development for enterprise dashboards. In parallel, I am studying
+        Electronic Engineering: a path I chose to build solid architectural
+        foundations for my practical work. I bring to development teams the
+        pragmatism acquired in the field and the analytical rigor derived from
+        my engineering studies.
       </p>
 
       <ExperiencesList />
