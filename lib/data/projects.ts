@@ -1,6 +1,6 @@
 import type { Project } from '../types/project-type';
 
-export const projects: Project[] = [
+export const software_projects: Project[] = [
   {
     id: '1',
     title: 'Lihos',
@@ -53,4 +53,15 @@ export const projects: Project[] = [
     link: 'https://www.swipeapp.studio',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Firebase'],
   },
+];
+
+export const hardware_projects: Project[] = [
+  // {
+  //   id: '1',
+  //   title: 'ESP32 Smart Home System',
+  //   description:
+  //     'A smart home system based on the ESP32 microcontroller, allowing users to control lights, temperature, and security systems via a mobile app.',
+  //   image: '/projects/esp32-smarthome.png',
+  //   technologies: ['ESP32', 'Arduino', 'MQTT'],
+  // },
 ];
