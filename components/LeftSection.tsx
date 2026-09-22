@@ -6,10 +6,10 @@ export default function LeftSection() {
     <div className="flex flex-col items-start justify-start gap-8 overflow-hidden pt-14 lg:gap-16 lg:pt-24">
       <div className="flex flex-col items-start justify-center">
         <h1 className="text-4xl text-bold">Filippo Alotta</h1>
-        <h2 className="text-bold text-lg">Software Engineer</h2>
 
-        <p className="mt-1 max-w-80 text-base text-description">
-          Software, Engineering. Systems that work everywhere.
+        <p className="mt-1 max-w-80 text-base text-description leading-tight">
+          Software Engineer | Robotics Engineering Student | Embedded Systems &
+          Firmware | ESP32 Developer
         </p>
 
         <IconsLinkSection />
