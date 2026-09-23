@@ -56,12 +56,12 @@ export const software_projects: Project[] = [
 ];
 
 export const hardware_projects: Project[] = [
-  // {
-  //   id: '1',
-  //   title: 'ESP32 Smart Home System',
-  //   description:
-  //     'A smart home system based on the ESP32 microcontroller, allowing users to control lights, temperature, and security systems via a mobile app.',
-  //   image: '/projects/esp32-smarthome.png',
-  //   technologies: ['ESP32', 'Arduino', 'MQTT'],
-  // },
+  {
+    id: '1',
+    title: 'TARS Rover',
+    description:
+      'TARS is an ESP32-based tactical exploration rover, designed for environmental analysis and autonomous navigation using light sensors and infrared radar.',
+    image: '/projects/esp32_rover.png',
+    technologies: ['ESP32', 'Arduino', 'MQTT', 'ROS', 'C++'],
+  },
 ];

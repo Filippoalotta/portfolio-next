@@ -8,7 +8,7 @@ export const experiences: Experience[] = [
     startDate: '2024',
     endDate: '2026',
     description:
-      'Developed scalable web applications using Next.js and TypeScript, managing the full rendering lifecycle (SSR/CSR) to optimize performance and SEO. Designed frontend architecture and integrated REST/GraphQL APIs, collaborating with backend teams to define strict data interface contracts. Implemented complex business logic across client and server-side environments (Next.js Middleware/API Routes), reducing database load and optimizing data flow.',
+      'I worked on developing solutions for enterprise clients, collaborating daily with the team to build and improve the product using modern patterns to create interactive dashboards. I worked iteratively, with frequent releases and rapid feedback loops.',
     websiteUrl: 'https://www.swipeapp.studio',
   },
   {
@@ -18,7 +18,7 @@ export const experiences: Experience[] = [
     startDate: '2024',
     endDate: '2026',
     description:
-      'Led the migration of a legacy module to a modern Next.js/React architecture, improving code maintainability and decreasing build times. Refactored complex client-side logic into modular hooks and utility functions, drastically reducing technical debt and improving testability. Established coding standards and best practices for the project.',
+      'I supervised the web development of Wheelo, a platform designed to manage itineraries, communities, and useful services. I am responsible for creating the user interface and experience, working to make the platform fast, intuitive, and functional.',
     websiteUrl: 'https://www.wheelo.it',
   },
   {
@@ -28,6 +28,6 @@ export const experiences: Experience[] = [
     startDate: '2023',
     endDate: '2024',
     description:
-      'Designed and developed custom websites for small businesses, focusing on responsive layouts, user-friendly interfaces, and seamless shopping experiences. Collaborated with clients to understand their needs, translating requirements into functional and visually appealing web applications.',
+      'During this experience, I primarily focused on developing web applications and websites using React, from initial setup to deployment. I worked on responsive layouts, integrated dynamic components, and optimized performance and SEO.',
   },
 ];

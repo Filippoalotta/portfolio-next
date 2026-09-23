@@ -2,9 +2,9 @@ import Image from 'next/image';
 import CGit from '@/public/icons/c-git.svg';
 import HtmlCss from '@/public/icons/html-css.svg';
 import JsTs from '@/public/icons/js-ts.svg';
+import OllamaNode from '@/public/icons/ollama-node.svg';
 import PostgresSupabase from '@/public/icons/postgres-supabase.svg';
 import ReactNext from '@/public/icons/react-next.svg';
-import TwNode from '@/public/icons/tw-node.svg';
 
 export default function TechStack() {
   return (
@@ -47,8 +47,8 @@ export default function TechStack() {
 
         <div className="group">
           <Image
-            src={TwNode}
-            alt="tailwind nodejs icon"
+            src={OllamaNode}
+            alt="ollama nodejs icon"
             className="transition-transform duration-300 group-hover:-translate-y-3"
             unoptimized
             width={84}

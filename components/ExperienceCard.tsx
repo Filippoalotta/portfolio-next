@@ -1,5 +1,5 @@
-import { Experience } from "@/lib/types/experience-type";
-import Link from "next/link";
+import Link from 'next/link';
+import type { Experience } from '@/lib/types/experience-type';
 
 export default function ExperienceCard({
   experience,
@@ -7,30 +7,30 @@ export default function ExperienceCard({
   experience: Experience;
 }) {
   return (
-    <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-1">
-      <h4 className="text-xs text-description min-lg:max-w-16 font-semibold uppercase">
+    <div className="flex w-full flex-col items-start justify-between gap-1 lg:flex-row">
+      <h4 className="font-semibold text-description text-xs uppercase min-lg:max-w-16">
         {experience.startDate}
-        {" - "}
-        {experience.endDate ? experience.endDate : "present"}
+        {' - '}
+        {experience.endDate ? experience.endDate : 'present'}
       </h4>
 
-      <div className="w-full flex-col justify-between items-start gap-2">
+      <div className="w-full flex-col items-start justify-between gap-2">
         {experience.websiteUrl ? (
           <Link
             href={experience.websiteUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h3 className="text-base hover:text-description font-bold">
+            <h3 className="font-bold text-base hover:text-description">
               {experience.company}
-              {" - "}
+              {' - '}
               {experience.position}
             </h3>
           </Link>
         ) : (
-          <h3 className="text-base font-bold">
+          <h3 className="font-bold text-base">
             {experience.company}
-            {" - "}
+            {' - '}
             {experience.position}
           </h3>
         )}
