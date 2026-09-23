@@ -18,4 +18,13 @@ export const educations = [
       'Completed an intensive Web Development Bootcamp covering HTML, CSS, JavaScript, React, Node.js, and database management.',
     websiteUrl: 'https://www.start2impact.it/',
   },
+  {
+    id: '3',
+    university: 'L. Ariosto',
+    course: 'Technical High School Diploma (Accounting and Business)',
+    startDate: '2016',
+    endDate: '2021',
+    description:
+      'Earned a High School Diploma with a strong focus on technical and scientific subjects.',
+  },
 ];
