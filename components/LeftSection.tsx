@@ -8,7 +8,7 @@ export default function LeftSection() {
         <h1 className="text-4xl text-bold">Filippo Alotta</h1>
 
         <p className="mt-1 max-w-80 text-base text-description leading-tight">
-          Software Engineer | Robotics Engineering
+          Software Engineer | Robotics Engineer
         </p>
 
         <IconsLinkSection />
