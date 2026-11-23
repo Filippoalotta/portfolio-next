@@ -3,27 +3,64 @@ import ProjectCard from './ProjectCard';
 
 export default function ProjectsList() {
   return (
-    <div className="flex flex-col items-start justify-between gap-6">
-      <h4 className="font-bold text-base uppercase">Projects</h4>
-
-      <p className="font-bold text-sm uppercase">Software Projects</p>
-
-      <div className="flex flex-col items-start justify-between gap-8">
-        {software_projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
+    <div className="flex w-full flex-col items-start justify-between gap-8">
+      <div className="flex items-center gap-2 font-mono">
+        <span className="h-2 w-2 bg-cyan-400" />
+        <h4 className="font-bold text-base uppercase tracking-wider">
+          Projects Archive
+        </h4>
       </div>
 
-      <p className="font-bold text-sm uppercase">Hardware Projects</p>
+      {/* Software Projects Section */}
+      <div className="flex w-full flex-col gap-4">
+        <div className="flex items-center justify-between border-white/10 border-b pb-1.5 font-mono text-slate-400 text-xs uppercase">
+          <span className="flex items-center gap-1.5 font-semibold">
+            <span className="text-cyan-400">{'//'}</span> 01. Software
+            Deployments
+          </span>
+          <span className="font-mono text-[10px] text-slate-500">
+            [{software_projects.length} MODULES]
+          </span>
+        </div>
 
-      <div className="flex flex-col items-start justify-between gap-8">
-        {hardware_projects.length > 0 ? (
-          hardware_projects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
-          ))
-        ) : (
-          <p className="text-description text-sm">Coming soon...</p>
-        )}
+        <div className="flex w-full flex-col items-start justify-between gap-4">
+          {software_projects.map((project) => (
+            <ProjectCard
+              key={project.id}
+              project={project}
+              category="software"
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Hardware Projects Section */}
+      <div className="flex w-full flex-col gap-4">
+        <div className="flex items-center justify-between border-white/10 border-b pb-1.5 font-mono text-slate-400 text-xs uppercase">
+          <span className="flex items-center gap-1.5 font-semibold">
+            <span className="text-emerald-400">{'//'}</span> 02. Robotics &
+            Embedded
+          </span>
+          <span className="font-mono text-[10px] text-slate-500">
+            [{hardware_projects.length} MODULES]
+          </span>
+        </div>
+
+        <div className="flex w-full flex-col items-start justify-between gap-4">
+          {hardware_projects.length > 0 ? (
+            hardware_projects.map((project) => (
+              <ProjectCard
+                key={project.id}
+                project={project}
+                category="hardware"
+              />
+            ))
+          ) : (
+            <p className="font-mono text-description text-sm">
+              [STANDBY] Modules in development...
+            </p>
+          )}
+        </div>
       </div>
     </div>
   );

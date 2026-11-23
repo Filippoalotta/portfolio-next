@@ -35,6 +35,7 @@
 }
 
 :root {
+  --font-geist-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --radius: 0.625rem;
   /* --background: #131a33; */
   --background: rgb(47, 34, 51);
