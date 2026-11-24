@@ -16,11 +16,11 @@ export default function RightSection() {
         practice.
       </p>
 
+      <ProjectsList />
+
       <ExperiencesList />
 
       <EducationsList />
-
-      <ProjectsList />
 
       <Footer />
     </div>
