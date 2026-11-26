@@ -1,3 +1,4 @@
+import CertificationsList from './CertificationsList';
 import EducationsList from './EducationsList';
 import ExperiencesList from './ExperiencesList';
 import Footer from './Footer';
@@ -21,6 +22,8 @@ export default function RightSection() {
       <ExperiencesList />
 
       <EducationsList />
+
+      <CertificationsList />
 
       <Footer />
     </div>

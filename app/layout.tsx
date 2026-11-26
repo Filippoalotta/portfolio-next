@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
 import { Rubik } from 'next/font/google';
 
 const rubik = Rubik({
@@ -32,6 +33,7 @@ export default function RootLayout({
       </head>
       <body className={`${rubik.variable} antialiased`}>
         <main className="mx-auto w-full max-w-[1600px] px-10">{children}</main>
+        <Analytics />
       </body>
     </html>
   );
