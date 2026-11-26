@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="x0BivwHTXJfAS7z8VcRhFWAXXNB2Wh8QO_ELd0tcJOg" />
         <meta
           property="og:title"
           content="Filippo Alotta - Software Engineer"
