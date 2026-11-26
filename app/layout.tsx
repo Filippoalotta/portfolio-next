@@ -10,8 +10,8 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: 'Filippo Alotta - Software Engineer',
-  description: 'Portfolio of Filippo Alotta, Software Engineer',
+  title: 'Filippo Alotta | Sviluppatore Siti Web, E-Commerce & Web App a Palermo',
+  description: 'Realizzazione siti web veloci, landing page, e-commerce e web app su misura a Palermo e in tutta Italia in Next.js e React. Preventivi chiari e consegna rapida.',
 };
 
 export default function RootLayout({
