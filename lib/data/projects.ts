@@ -4,16 +4,22 @@ export const software_projects: Project[] = [
   {
     id: '1',
     title: 'Lihos',
+    categoryLabel: 'Gestionale Web B2B',
     description:
-      'A management software developed for a cleaning company to streamline client and operator management, including the organization of apartments and hotel rooms.',
+      'Software gestionale su misura sviluppato per un’impresa di servizi per automatizzare la gestione di clienti, turni degli operatori e organizzazione operativa di appartamenti e strutture ricettive.',
+    outcome:
+      'Digitalizzazione completa dei flussi operativi e riduzione degli errori di pianificazione.',
     image: '/projects/lihos_project.svg',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
   },
   {
     id: '2',
     title: 'MG Investments',
+    categoryLabel: 'Sito Corporate & Real Estate',
     description:
-      'A company specialized in direct investments in the real estate sector, focusing on hospitality and commercial assets in the UK and EU.',
+      'Piattaforma istituzionale ad alte prestazioni per una società specializzata in investimenti immobiliari diretti nel settore hospitality e commerciale tra Regno Unito ed Europa.',
+    outcome:
+      'Immagine corporate autorevole e caricamento istantaneo su tutti i dispositivi.',
     image: '/projects/mg-thumbnail.png',
     link: 'https://mg-investment.vercel.app',
     technologies: ['Astro', 'Tailwind CSS', 'TypeScript'],
@@ -21,8 +27,11 @@ export const software_projects: Project[] = [
   {
     id: '3',
     title: 'Wheelo Website',
+    categoryLabel: 'Web Platform & Community',
     description:
-      'An all-in-one motorcycle app designed to connect riders, manage trips, and share experiences.',
+      'Piattaforma web dedicata al mondo motociclistico per connettere rider, organizzare itinerari di viaggio e presentare le funzionalità dell’ecosistema digitale Wheelo.',
+    outcome:
+      'Interfaccia veloce, SEO-friendly e progettata per acquisire nuovi utenti.',
     image: '/projects/wheelo-thumbnail.png',
     link: 'https://www.wheelo.it',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
@@ -30,8 +39,11 @@ export const software_projects: Project[] = [
   {
     id: '4',
     title: 'La Nuova Aldebaran',
+    categoryLabel: 'Sito Aziendale & Catalogo B2B',
     description:
-      'A website for a supplier of industrial cleaning products and systems, showcasing their solutions and facilitating customer inquiries.',
+      'Sito web aziendale per un fornitore di prodotti e sistemi di pulizia industriale, progettato per valorizzare le soluzioni a catalogo e facilitare le richieste di preventivo B2B.',
+    outcome:
+      'Presenza online chiara e ottimizzata per ricerche di settore e contatti commerciali.',
     image: '/projects/lanuovaaldebaran_project.svg',
     link: 'https://www.nuovaaldebaran.it',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
@@ -39,16 +51,21 @@ export const software_projects: Project[] = [
   {
     id: '5',
     title: 'Fonditalia',
+    categoryLabel: 'Portale Clienti & Admin',
     description:
-      'A management platform developed for Fonditalia to handle client requests and streamline administrative processes. The platform provides dedicated areas for customers and admins.',
+      'Piattaforma gestionale su misura per gestire richieste clienti e pratiche amministrative, completa di aree riservate separate per utenti finali e amministratori.',
+    outcome:
+      'Centralizzazione delle richieste e gestione sicura dei dati aziendali.',
     image: '/projects/fonditalia_project.svg',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Firebase'],
   },
   {
     id: '6',
     title: 'SwipeApp Studio',
+    categoryLabel: 'Software House & Startup SaaS',
     description:
-      'SwipeApp Studio is a software house for venture capital companies, specializing in building custom software solutions for startups.',
+      'Sito e vetrina digitale per software house dedicata a startup e venture capital, focalizzata sullo sviluppo di prodotti software scalabili e dashboard interattive.',
+    outcome: 'Posizionamento premium verso fondatori di startup e investitori.',
     image: '/projects/swipeapp-thumbnail.png',
     link: 'https://www.swipeapp.studio',
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Firebase'],
@@ -59,8 +76,11 @@ export const hardware_projects: Project[] = [
   {
     id: '1',
     title: 'TARS Rover',
+    categoryLabel: 'Robotica & Sistemi Embedded',
     description:
-      'TARS is an ESP32-based tactical exploration rover, designed for environmental analysis and autonomous navigation using light sensors and infrared radar.',
+      'Rover autonomo basato su ESP32 progettato per analisi ambientale e navigazione autonoma tramite sensori ottici, radar a infrarossi e telemetria MQTT/ROS.',
+    outcome:
+      'Dimostrazione pratica di ingegneria software/hardware affidabile e problem solving complesso.',
     image: '/projects/esp32_rover.png',
     technologies: ['ESP32', 'Arduino', 'MQTT', 'ROS', 'C++'],
   },

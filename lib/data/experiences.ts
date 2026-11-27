@@ -8,7 +8,7 @@ export const experiences: Experience[] = [
     startDate: '2024',
     endDate: '2026',
     description:
-      'I worked on developing solutions for enterprise clients, collaborating daily with the team to build and improve the product using modern patterns to create interactive dashboards. I worked iteratively, with frequent releases and rapid feedback loops.',
+      'Sviluppo di soluzioni software e dashboard interattive per clienti enterprise e startup, lavorando con rilasci rapidi, codice manutenibile e attenzione costante alla qualità del prodotto.',
     websiteUrl: 'https://www.swipeapp.studio',
   },
   {
@@ -18,16 +18,15 @@ export const experiences: Experience[] = [
     startDate: '2024',
     endDate: '2026',
     description:
-      'I supervised the web development of Wheelo, a platform designed to manage itineraries, communities, and useful services. I am responsible for creating the user interface and experience, working to make the platform fast, intuitive, and functional.',
+      'Supervisione dello sviluppo web della piattaforma Wheelo dedicata a itinerari, community e servizi per motociclisti, curando interfaccia utente, velocità di caricamento ed esperienza mobile.',
     websiteUrl: 'https://www.wheelo.it',
   },
   {
     id: '3',
-    company: 'Freelance',
-    position: 'Web Developer',
+    company: 'Attività Freelance',
+    position: 'Sviluppatore Web & Software',
     startDate: '2023',
-    endDate: '2024',
     description:
-      'During this experience, I primarily focused on developing web applications and websites using React, from initial setup to deployment. I worked on responsive layouts, integrated dynamic components, and optimized performance and SEO.',
+      'Progettazione e sviluppo end-to-end di siti web aziendali, landing page ad alta conversione, e-commerce e gestionali web su misura a Palermo e da remoto, con focus su SEO tecnica e performance.',
   },
 ];

@@ -1,65 +1,69 @@
-import { FileUser } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
+import { FileText } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { SITE_CONFIG } from '@/lib/seo';
 
 export default function IconsLinkSection() {
   return (
-    <div className="flex justify-between items-center gap-4 mt-3">
+    <div className="flex items-center gap-4">
       <Link
-        href={"https://github.com/Filippoalotta"}
+        href={SITE_CONFIG.githubUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="group"
+        aria-label="Profilo GitHub di Filippo Alotta"
+        title="GitHub"
+        className="opacity-70 transition-opacity hover:opacity-100"
       >
         <Image
           src="/icons/github-white-icon.svg"
-          alt="github icon"
-          width={20}
-          height={20}
-          className="hover:scale-110 group-hover:rotate-12 transition-transform duration-300"
+          alt="GitHub"
+          width={18}
+          height={18}
+          className="brightness-0"
         />
       </Link>
 
       <Link
-        href={"https://www.linkedin.com/in/filippoalotta/"}
+        href={SITE_CONFIG.linkedinUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="group"
+        aria-label="Profilo LinkedIn di Filippo Alotta"
+        title="LinkedIn"
+        className="opacity-70 transition-opacity hover:opacity-100"
       >
         <Image
           src="/icons/linkedin-white-icon.svg"
-          alt="linkedin icon"
-          width={20}
-          height={20}
-          className="hover:scale-110 transition-transform group-hover:rotate-12 duration-300"
+          alt="LinkedIn"
+          width={18}
+          height={18}
+          className="brightness-0"
         />
       </Link>
 
       <Link
-        href={"mailto:alottafilippo@gmail.com"}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group"
+        href={`mailto:${SITE_CONFIG.email}`}
+        aria-label="Invia una email a Filippo Alotta"
+        title="Email diretta"
+        className="opacity-70 transition-opacity hover:opacity-100"
       >
         <Image
           src="/icons/email-white-icon.svg"
-          alt="email icon"
-          width={24}
-          height={24}
-          className="hover:scale-110 transition-transform group-hover:rotate-12 duration-300"
+          alt="Email"
+          width={20}
+          height={20}
+          className="brightness-0"
         />
       </Link>
+
       <Link
-        href={"/cv/cv.pdf"}
+        href={SITE_CONFIG.cvUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="group"
+        aria-label="Scarica il Curriculum Vitae in PDF"
+        className="inline-flex items-center gap-1.5 rounded-full border border-slate-200 bg-slate-50 px-3 py-1 font-medium text-slate-700 text-xs transition-colors hover:border-slate-300 hover:bg-slate-100 hover:text-slate-900"
       >
-        <FileUser
-          className="hover:scale-110 transition-transform group-hover:rotate-12 duration-300"
-          width={24}
-          height={24}
-        />
+        <FileText className="h-3.5 w-3.5 text-sky-600" />
+        Scarica CV
       </Link>
     </div>
   );

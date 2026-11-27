@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Filippo Alotta — Portfolio Freelance & Servizi Digitali a Palermo
 
-## Getting Started
+Portfolio personale e vetrina commerciale per attività freelance di sviluppo **Siti Web**, **Landing Page**, **E-Commerce** e **Software Web Su Misura** a **Palermo** e da remoto in tutta Italia.
 
-First, run the development server:
+Costruito con **Next.js 15 (App Router)**, **React 19**, **TypeScript**, **Tailwind CSS v4** e ottimizzato per **SEO locale e tecnica**.
+
+## Funzionalità principali
+
+- **Posizionamento Freelance & Conversione**: proposta di valore orientata ai clienti, servizi dettagliati, metodo di lavoro trasparente, FAQ e modulo richiesta preventivo.
+- **SEO Avanzata**:
+  - Pagine dedicate pre-renderizzate per ogni servizio (`/servizi/siti-web-palermo`, `/servizi/landing-page-palermo`, `/servizi/ecommerce-palermo`, `/servizi/software-su-misura-palermo`).
+  - Dati strutturati JSON-LD (`WebSite`, `Person`, `ProfessionalService`, `Service`, `BreadcrumbList`, `FAQPage`).
+  - `sitemap.xml`, `robots.txt`, `manifest.webmanifest`, `opengraph-image` e `twitter-image` generati nativamente da Next.js.
+- **Casi Studio Reali**: progetti software B2B/startup e progetti di robotica/embedded.
+
+## Avvio rapido
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Apri [http://localhost:3000](http://localhost:3000) nel browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Variabili d'ambiente
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Per collegare un dominio personalizzato in produzione (es. su Vercel), imposta:
 
-## Learn More
+```bash
+NEXT_PUBLIC_SITE_URL=https://tuodominio.it
+```
 
-To learn more about Next.js, take a look at the following resources:
+In assenza della variabile viene usato `https://www.filippoalotta.com`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Documentazione completa
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Consulta [docs/DOCUMENTAZIONE.md](docs/DOCUMENTAZIONE.md) per la guida completa su architettura, strategia SEO, modifica dei contenuti e checklist post-deploy.

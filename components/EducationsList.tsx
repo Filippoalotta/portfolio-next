@@ -3,10 +3,9 @@ import EducationCard from './EducationCard';
 
 export default function EducationsList() {
   return (
-    <div className="flex flex-col items-start justify-between gap-6">
-      <h4 className="font-bold text-base uppercase">Education</h4>
-
-      <div className="flex flex-col items-start justify-between gap-8">
+    <div className="flex flex-col gap-4">
+      <h3 className="font-bold text-lg text-slate-900">Formazione</h3>
+      <div className="flex flex-col gap-4">
         {educations.map((education) => (
           <EducationCard key={education.id} education={education} />
         ))}

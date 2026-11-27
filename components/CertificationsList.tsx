@@ -3,15 +3,11 @@ import CertificationCard from './CertificationCard';
 
 export default function CertificationsList() {
   return (
-    <div className="flex w-full flex-col items-start justify-between gap-6">
-      <div className="flex items-center gap-2 font-mono">
-        <span className="h-2 w-2 bg-amber-400" />
-        <h4 className="font-bold text-base uppercase tracking-wider">
-          Certifications &amp; Awards
-        </h4>
-      </div>
-
-      <div className="flex w-full flex-col items-start justify-between gap-4">
+    <div className="mt-10 flex flex-col gap-4">
+      <h3 className="font-bold text-lg text-slate-900">
+        Riconoscimenti e Certificazioni
+      </h3>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         {certifications.map((certification) => (
           <CertificationCard
             key={certification.id}

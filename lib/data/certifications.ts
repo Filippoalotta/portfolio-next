@@ -3,24 +3,24 @@ import type { Certification } from '@/lib/types/certification-type';
 export const certifications: Certification[] = [
   {
     id: '1',
-    title: 'MATLAB Workshop & Coding Challenge — 4th Place',
+    title: 'MATLAB Workshop & Coding Challenge — 4° Posto',
     issuer: 'MATLAB Seminar & Technical Workshop',
     date: 'Nov 2026',
     category: 'award',
-    highlight: '4th / ~600 participants',
+    highlight: '4° / ~600 partecipanti',
     description:
-      'Placed 4th out of nearly 600 participants during an intensive MATLAB seminar and technical workshop focused on numerical computing, matrix operations, and engineering problem-solving.',
-    skills: ['MATLAB', 'Numerical Computing', 'Problem Solving'],
+      'Classificato al 4° posto su quasi 600 partecipanti in una challenge tecnica intensiva dedicata al calcolo numerico, algoritmi e problem solving ingegneristico.',
+    skills: ['MATLAB', 'Calcolo Numerico', 'Problem Solving'],
   },
   {
     id: '2',
-    title: 'MATLAB Onramp — Course Completion Certificate',
+    title: 'MATLAB Onramp — Certificato di Completamento',
     issuer: 'MathWorks Training Services',
     date: 'Nov 2026',
     category: 'certification',
-    highlight: '100% Completed',
+    highlight: '100% Completato',
     description:
-      'Completed 100% of the MathWorks self-paced MATLAB Onramp training course, covering core syntax, array indexing, data visualization, and algorithmic workflows.',
+      'Completamento al 100% del percorso ufficiale MathWorks su sintassi core, elaborazione matriciale, visualizzazione dati e flussi algoritmici.',
     skills: ['MATLAB', 'Data Visualization', 'Vectorization'],
     certificateUrl: '/certificates/matlab-onramp.pdf',
   },
