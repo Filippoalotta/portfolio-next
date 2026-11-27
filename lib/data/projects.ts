@@ -38,6 +38,18 @@ export const software_projects: Project[] = [
   },
   {
     id: '4',
+    title: 'Portfolio Brand designer',
+    categoryLabel: 'Web Portfolio & Personal Branding',
+    description:
+      'Portfolio web per la designer Andrea Smeraldi specializzato in branding e identità visiva, progettato per mostrare i progetti creativi e attrarre potenziali clienti.',
+    outcome:
+      'Interfaccia veloce, SEO-friendly e progettata per acquisire nuovi utenti.',
+    image: '/projects/portfolio_dri_project.png',
+    link: 'https://portfolio-dri.vercel.app/',
+    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+  },
+  {
+    id: '5',
     title: 'La Nuova Aldebaran',
     categoryLabel: 'Sito Aziendale & Catalogo B2B',
     description:
@@ -49,7 +61,7 @@ export const software_projects: Project[] = [
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Supabase'],
   },
   {
-    id: '5',
+    id: '6',
     title: 'Fonditalia',
     categoryLabel: 'Portale Clienti & Admin',
     description:
@@ -60,7 +72,7 @@ export const software_projects: Project[] = [
     technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Firebase'],
   },
   {
-    id: '6',
+    id: '7',
     title: 'SwipeApp Studio',
     categoryLabel: 'Software House & Startup SaaS',
     description:
