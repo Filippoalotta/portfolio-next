@@ -29,7 +29,7 @@ export const services: ServicePackage[] = [
       'sviluppatore siti web Palermo',
       'sito aziendale Palermo SEO',
     ],
-    heroHeadline: 'Realizzazione Siti Web Professionali a Palermo',
+    heroHeadline: 'Realizzazione Siti Web a Palermo',
     heroSubheadline:
       'Siti aziendali e vetrina sviluppati da zero in Next.js e React: caricamento istantaneo, grafica curata e architettura SEO pensata per portare clienti reali.',
     benefits: [
@@ -91,7 +91,7 @@ export const services: ServicePackage[] = [
       'landing page alta conversione',
       'pagina vendita servizio Palermo',
     ],
-    heroHeadline: 'Landing Page ad Alta Conversione a Palermo',
+    heroHeadline: 'Landing Page a Palermo',
     heroSubheadline:
       'Trasforma i clic delle tue campagne pubblicitarie in contatti qualificati grazie a pagine ultra-veloci progettate intorno a un unico obiettivo commerciale.',
     benefits: [
@@ -154,7 +154,7 @@ export const services: ServicePackage[] = [
       'sito vendita online Palermo',
       'sviluppatore ecommerce Sicilia',
     ],
-    heroHeadline: 'Sviluppo E-Commerce Professionali a Palermo',
+    heroHeadline: 'Sviluppo E-Commerce a Palermo',
     heroSubheadline:
       'Porta la tua attività locale a vendere online 24/7 con uno store rapido, ottimizzato per smartphone e strutturato per posizionare i tuoi prodotti su Google.',
     benefits: [
@@ -217,7 +217,7 @@ export const services: ServicePackage[] = [
       'software aziendale personalizzato Palermo',
       'sviluppatore React Next.js Palermo',
     ],
-    heroHeadline: 'Sviluppo Software Web & Gestionali Su Misura a Palermo',
+    heroHeadline: 'Sviluppo Software Web & Gestionali a Palermo',
     heroSubheadline:
       'Elimina fogli Excel sparsi e processi manuali: progetto piattaforme web su misura per gestire clienti, operatori, commesse e dati aziendali in un unico posto.',
     benefits: [
