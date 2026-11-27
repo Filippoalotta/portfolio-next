@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: '%s | Filippo Alotta — Sviluppatore Web Palermo',
   },
   description:
-    'Sviluppatore freelance a Palermo: realizzazione siti web veloci, landing page ad alta conversione, e-commerce e software gestionali su misura in Next.js e React. Preventivi chiari.',
+    'Sviluppatore freelance a Palermo: realizzazione siti web veloci, landing page ad alta conversione, e-commerce e software gestionali su misura. Preventivi chiari.',
   keywords: CORE_KEYWORDS,
   authors: [{ name: SITE_CONFIG.name, url: SITE_URL }],
   creator: SITE_CONFIG.name,

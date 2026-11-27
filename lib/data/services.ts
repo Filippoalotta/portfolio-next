@@ -31,7 +31,7 @@ export const services: ServicePackage[] = [
     ],
     heroHeadline: 'Realizzazione Siti Web a Palermo',
     heroSubheadline:
-      'Siti aziendali e vetrina sviluppati da zero in Next.js e React: caricamento istantaneo, grafica curata e architettura SEO pensata per portare clienti reali.',
+      'Siti aziendali e vetrina sviluppati da zero: caricamento istantaneo, grafica curata e architettura SEO pensata per portare clienti reali.',
     benefits: [
       {
         title: 'Posizionamento SEO Locale e Nazionale',
