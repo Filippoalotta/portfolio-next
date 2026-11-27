@@ -31,7 +31,7 @@ const SOCIAL_LINKS = [
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col gap-5 border-slate-200 border-t py-10 text-slate-600 text-sm">
+    <footer className="flex flex-col gap-5 border-slate-200 border-t pt-10 pb-5 text-slate-600 text-sm">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <span className="font-semibold text-slate-900">{SITE_CONFIG.name}</span>
 
