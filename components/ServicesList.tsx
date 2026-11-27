@@ -30,7 +30,7 @@ export default function ServicesList() {
         {services.map((service) => (
           <article
             key={service.id}
-            className="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-xs transition-all duration-200 hover:border-sky-300 hover:shadow-md"
+            className="group relative flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-xs transition-all duration-200 hover:border-sky-300 hover:shadow-md"
           >
             <div>
               <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
@@ -43,7 +43,7 @@ export default function ServicesList() {
                 </span>
               </div>
 
-              <h3 className="mt-4 font-bold text-slate-900 text-xl">
+              <h3 className="mt-4 font-bold text-slate-900 text-xl transition-colors group-hover:text-sky-700">
                 {service.title}
               </h3>
               <p className="mt-1 font-medium text-sky-700 text-sm">
@@ -69,15 +69,15 @@ export default function ServicesList() {
             <div className="mt-6 flex items-center justify-between gap-4 border-slate-100 border-t pt-5">
               <Link
                 href={`/servizi/${service.slug}`}
-                className="inline-flex items-center gap-1.5 font-semibold text-sky-700 text-sm transition-colors hover:text-sky-600"
+                className="inline-flex items-center gap-1.5 font-semibold text-sky-700 text-sm transition-colors after:absolute after:inset-0 hover:text-sky-600"
               >
                 Approfondisci
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </Link>
 
               <Link
                 href="#contatti"
-                className="rounded-lg border border-slate-200 bg-slate-50 px-3.5 py-2 font-semibold text-slate-900 text-sm transition-colors hover:border-slate-900 hover:bg-slate-900 hover:text-white"
+                className="relative z-10 rounded-lg border border-slate-200 bg-slate-50 px-3.5 py-2 font-semibold text-slate-900 text-sm transition-colors hover:border-slate-900 hover:bg-slate-900 hover:text-white"
               >
                 Richiedi preventivo
               </Link>

@@ -14,7 +14,7 @@ export const services: ServicePackage[] = [
     deliverables: [
       'Design responsive mobile-first su misura',
       'SEO tecnica on-page, Schema.org e sitemap',
-      'Core Web Vitals ottimizzati (95+ su Google)',
+      'Caricamento istantaneo su smartphone e desktop',
       'Moduli contatto, mappa e tracciamento conversioni',
     ],
     timeline: '7 – 14 giorni lavorativi',
@@ -77,7 +77,7 @@ export const services: ServicePackage[] = [
     deliverables: [
       'Architettura persuasiva orientata al lead',
       'Caricamento istantaneo per abbassare il CPC',
-      'Integrazione Pixel Meta, GA4 e moduli preventivi',
+      'Contatto rapido su WhatsApp e moduli preventivo diretti',
       'Ottimizzazione mobile-first per traffico social',
     ],
     timeline: '4 – 7 giorni lavorativi',
