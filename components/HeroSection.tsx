@@ -13,7 +13,7 @@ export default function HeroSection() {
   return (
     <section
       aria-label="Presentazione"
-      className="pt-10 pb-14 sm:pt-16 sm:pb-20"
+      className="pt-10 pb-10 sm:pt-16"
     >
       <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-12">
         {/* Copy & CTAs */}
@@ -30,7 +30,7 @@ export default function HeroSection() {
 
           <p className="mt-5 max-w-2xl text-base text-slate-600 leading-relaxed sm:text-lg">
             Ciao, sono{' '}
-            <strong className="text-slate-900">Filippo Alotta</strong>, sviluppo
+            <strong className="text-slate-900">Filippo Alotta</strong>, sviluppo{" "}
             <strong className="text-slate-900">siti web veloci, e-commerce e software</strong> su misura a
             Palermo. Aiuto aziende e professionisti a farsi trovare su Google e
             ad acquisire nuovi clienti, con tecnologie moderne, zero template

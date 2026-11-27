@@ -5,7 +5,7 @@ const STEPS = [
     number: '1',
     title: 'Analisi & Preventivo',
     description:
-      'Una call gratuita di 20 minuti (dal vivo a Palermo o online) per capire i tuoi obiettivi e definire tempi e costi certi.',
+      'Una call gratuita di 30 minuti (dal vivo a Palermo o online) per capire i tuoi obiettivi e definire tempi e costi certi.',
   },
   {
     number: '2',
