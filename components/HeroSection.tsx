@@ -24,7 +24,7 @@ export default function HeroSection() {
           </div>
 
           <h1 className="mt-5 font-bold text-3xl text-slate-900 leading-[1.15] tracking-tight sm:text-5xl">
-            Siti web, e-commerce e software su misura per far crescere la tua
+            <span className='text-sky-700'>Siti web, e-commerce e software</span> su misura per far crescere la tua
             attività
           </h1>
 
