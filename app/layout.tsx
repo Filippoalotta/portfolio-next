@@ -98,6 +98,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="it">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="cqdKiC6KaT3fHvGFEx0k2sK7IU1Pl3jM7JVVFihlKow"
+        />
+      </head>
       <body className={`${plusJakarta.variable} ${rubik.variable} antialiased`}>
         {children}
         <Analytics />
