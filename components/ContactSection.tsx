@@ -37,6 +37,7 @@ export default function ContactSection({
   const [budget, setBudget] = useState(BUDGET_OPTIONS[0]);
   const [message, setMessage] = useState('');
   const [botcheck, setBotcheck] = useState(false);
+  const [checkboxStatus, setCheckboxStatus] = useState(false);
 
   const [status, setStatus] = useState<
     'idle' | 'submitting' | 'success' | 'error'
@@ -48,6 +49,11 @@ export default function ContactSection({
     if (botcheck) return;
 
     setStatus('submitting');
+
+    if (!checkboxStatus) {
+      setStatus('error');
+      return;
+    }
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
@@ -286,6 +292,19 @@ export default function ContactSection({
                   placeholder="Es. Vorrei creare un sito web o un e-commerce per la mia attività a Palermo per ricevere più richieste da Google..."
                   className="rounded-xl border border-slate-200 bg-white px-3.5 py-2.5 text-slate-900 text-sm outline-none transition-colors focus:border-sky-500"
                 />
+              </label>
+
+              <label className="flex w-full items-center gap-2 text-sm sm:col-span-2">
+                <input
+                  type="checkbox"
+                  checked={checkboxStatus}
+                  onChange={(e) => setCheckboxStatus(e.target.checked)}
+                  className="h-4 w-4 rounded border border-slate-200 bg-white text-sky-500 focus:ring-2 focus:ring-sky-500"
+                />
+                <span className="w-full text-slate-700 text-xs">
+                  Ho letto l'Informativa sulla Privacy e acconsento al
+                  trattamento dei dati per ricevere risposta alla mia richiesta.
+                </span>
               </label>
 
               {status === 'error' && (

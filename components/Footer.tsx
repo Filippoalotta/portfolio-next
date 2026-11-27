@@ -66,6 +66,13 @@ export default function Footer() {
             })}
           </div>
         </div>
+
+        <Link
+          href="/privacy-policy"
+          className="underline transition-colors hover:text-slate-900"
+        >
+          Privacy &amp; Cookie Policy
+        </Link>
       </div>
 
       <p className="text-center text-slate-500 text-xs">
