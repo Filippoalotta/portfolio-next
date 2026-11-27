@@ -38,7 +38,7 @@ export default function IconsLinkSection() {
       </Link>
 
       <Link
-        href="mailto:alottafilippo@gmail.com"
+        href="mailto:filippoalotta.dev@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Email Filippo Alotta"

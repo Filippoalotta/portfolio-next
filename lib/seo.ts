@@ -9,7 +9,7 @@ export const SITE_CONFIG = {
   name: 'Filippo Alotta',
   brandTitle: 'Filippo Alotta | Siti Web, E-Commerce & Software a Palermo',
   role: 'Sviluppatore Web Freelance & Software Engineer',
-  email: 'alottafilippo@gmail.com',
+  email: 'filippoalotta.dev@gmail.com',
   githubUrl: 'https://github.com/Filippoalotta',
   linkedinUrl: 'https://www.linkedin.com/in/filippoalotta/',
   cvUrl: '/cv/cv.pdf',

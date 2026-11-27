@@ -19,7 +19,7 @@ Target geografico principale: **Palermo e Sicilia** (presenza locale + incontri 
 1. **Barra di navigazione fissa (`components/Navbar.tsx`)**:
    - Navigazione immediata tra le sezioni (`Servizi`, `Progetti`, `Metodo`, `Percorso`, `FAQ`) su desktop e mobile, con pulsante CTA sempre accessibile (`Richiedi Preventivo`).
 2. **Hero pulita & Foto profilo (`components/HeroSection.tsx`)**:
-   - Badge di disponibilità attiva (`Disponibile per nuovi progetti freelance · Palermo & Italia`).
+   - Badge di disponibilità attiva (`Disponibile per nuovi progetti freelance`).
    - Titolo orientato ai benefici per il cliente, CTA primaria (`Richiedi un preventivo gratuito`), link rapidi e foto profilo (`public/images/filippo-alotta.jpg`) ottimizzata con `next/image` e `priority`.
    - Fascia sintetica di credibilità (`3+ Anni`, `SEO-First`, `Palermo`).
 3. **Catalogo Servizi (`components/ServicesList.tsx`)**:
@@ -33,7 +33,7 @@ Target geografico principale: **Palermo e Sicilia** (presenza locale + incontri 
 7. **FAQ Interattive (`components/FaqSection.tsx`)**:
    - Risposte chiare a dubbi su prezzi, tempistiche, SEO locale a Palermo, proprietà del codice e manutenzione.
 8. **Modulo Richiesta Preventivo (`components/ContactSection.tsx`)**:
-   - Selezione servizio, fascia di budget indicativa, apertura client email precompilato (`mailto:alottafilippo@gmail.com`) e copia rapida dell’indirizzo email.
+   - Selezione servizio, fascia di budget indicativa, apertura client email precompilato (`mailto:filippoalotta.dev@gmail.com`) e copia rapida dell’indirizzo email.
 
 ---
 

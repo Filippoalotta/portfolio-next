@@ -46,7 +46,7 @@ export const software_projects: Project[] = [
       'Presenza online chiara e ottimizzata per ricerche di settore e contatti commerciali.',
     image: '/projects/lanuovaaldebaran_project.svg',
     link: 'https://www.nuovaaldebaran.it',
-    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+    technologies: ['Next.js', 'Tailwind CSS', 'TypeScript', 'Supabase'],
   },
   {
     id: '5',

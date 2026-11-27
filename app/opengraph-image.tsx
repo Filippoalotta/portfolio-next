@@ -60,7 +60,7 @@ export default function OpenGraphImage() {
       >
         <span>Design Pulito · Alte Prestazioni · SEO Locale</span>
         <span style={{ color: '#059669', fontWeight: 600 }}>
-          alottafilippo@gmail.com
+          filippoalotta.dev@gmail.com
         </span>
       </div>
     </div>,

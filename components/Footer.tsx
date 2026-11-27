@@ -9,7 +9,7 @@ export default function Footer() {
         <span className="font-semibold text-slate-900">{SITE_CONFIG.name}</span>
 
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-xs">
-          <Link href="/" className="transition-colors hover:text-slate-900">
+          {/* <Link href="/" className="transition-colors hover:text-slate-900">
             Home
           </Link>
           {services.map((service) => (
@@ -20,7 +20,7 @@ export default function Footer() {
             >
               {service.shortTitle}
             </Link>
-          ))}
+          ))} */}
           <Link
             href="/developer"
             className="transition-colors hover:text-slate-900"

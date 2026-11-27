@@ -49,7 +49,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           </p>
         </div>
 
-        {project.technologies && project.technologies.length > 0 && (
+        {/* {project.technologies && project.technologies.length > 0 && (
           <div className="mt-5 flex flex-wrap gap-1.5">
             {project.technologies.map((tech) => (
               <span
@@ -60,7 +60,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               </span>
             ))}
           </div>
-        )}
+        )} */}
       </div>
     </article>
   );

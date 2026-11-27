@@ -20,7 +20,7 @@ export default function HeroSection() {
         <div className="flex flex-col items-start lg:col-span-7">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3.5 py-1.5 font-medium text-emerald-700 text-xs">
             <span className="h-2 w-2 rounded-full bg-emerald-500 text-center" />
-            Disponibile per nuovi progetti freelance · Palermo &amp; Italia
+            Disponibile per nuovi progetti freelance
           </div>
 
           <h1 className="mt-5 font-bold text-3xl text-slate-900 leading-[1.15] tracking-tight sm:text-5xl">
